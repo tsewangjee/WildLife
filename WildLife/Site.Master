@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title><%: Page.Title %> - WildLife</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -46,7 +46,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <div style="float: left; width: 130px; padding-top: 5px; padding-left: 15px; color: white;font-size: 25px;"><b>WildLife</b></div>
+                    <div style="float: left; width: 120px; padding-top: 7px; color: white;font-size: 25px;"><b>WildLife</b></div>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
@@ -54,6 +54,7 @@
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                     </ul>
+                    <button style="float: right;margin-top: 12px;" onclick="location.href='Login'"; type="button">Login/SignUp</button>
                 </div>
             </div>
         </div>
