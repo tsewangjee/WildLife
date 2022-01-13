@@ -57,14 +57,15 @@
                 </div>
             </div>
         </div>
-        <div class="container body-content">
+        <div class="container" style="display: flex;flex-direction: column;min-height: 100%;">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
-            </footer>
         </div>
+        <footer class="navbar-brand navbar-fixed-bottom" style="border-top-width: 2px;border-top-style: solid;border-top-color: darkblue;">
+            <div class ="container">
+                <p>&copy; <%: DateTime.Now.Year %> - WildLife Community</p>
+            </div>
+        </footer>
 
     </form>
 </body>
