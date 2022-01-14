@@ -16,7 +16,7 @@
             </tr>
             <tr><td colspan="2"><div style="height:70px"></div></td></tr>
             <tr>
-                <td align="center"><button>Forgot Password</button></td>
+                <td align="center"><button runat="server" id="btnForgotPW" onclick="DisplayGetPWLink">Forgot Password</button></td>
                 <td align="center"><button>Login</button></td>
             </tr>
         </table>
@@ -47,7 +47,7 @@
         </table>
     </div>
 
-    <div style="width:100%;border-top:groove; float:right; padding-top:100px; margin-top:50px">
+    <div runat="server" id="divGetPW" style="width:100%;border-top:groove; float:right; padding-top:100px; margin-top:50px;" visible="false">
         <table style="margin: 0 auto; ">
             <tr>
                 <td align="center"><label> Please Enter your Email </label></td>
