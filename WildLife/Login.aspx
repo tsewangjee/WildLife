@@ -18,7 +18,7 @@
             <tr>
                 <td align="center"><button runat="server" id="btnForgotPW" onclick="DisplayGetPWLink">Forgot Password</button></td>
                 <td align="center"><button>Login</button></td>
-            </tr>
+            </tr> 
         </table>
     </div>
 
