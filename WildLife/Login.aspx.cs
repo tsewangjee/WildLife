@@ -11,10 +11,10 @@ namespace WildLife
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            btnForgotPW.ServerClick += new EventHandler(this.DisplayGetPWLink);
-
+            divGetPW.Visible = false;
         }
-        protected void DisplayGetPWLink(object sender, EventArgs e)
+
+        protected void btnForgotPW_Click(object sender, EventArgs e)
         {
             divGetPW.Visible = true;
         }
