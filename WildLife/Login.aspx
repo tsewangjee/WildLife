@@ -1,12 +1,12 @@
 ﻿<%@ Page Title="Login" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WildLife.Login" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <%--<script type="text/javascript">
-        function DisplayGetPWLink()
-        {
-            document.getElementById("<%= divGetPW.ClientID %>").style.visibility = "visible";
-        } 
-    </script>--%>
+    
+    <script type="text/javascript">
+        function ShowGetPW() {
+            document.getElementById("<%= divGetPW.ClientID %>").style.display = 'block';
+        }
+    </script>
 
     <div style=" float:left; position:static; width:50%;">
         <table style="margin: 0 auto; margin-top: 50px">
@@ -22,7 +22,7 @@
             </tr>
             <tr><td colspan="2"><div style="height:70px"></div></td></tr>
             <tr>
-                <td align="center"><asp:Button runat="server" id="btnForgotPW" Text="Forgot Password" OnClick="btnForgotPW_Click"></asp:Button></td>
+                <td align="center"><Button type="button" id="btnForgotPW" onclick="ShowGetPW()">Forgot Password?</Button></td>
                 <td align="center"><button>Login</button></td>
             </tr> 
         </table>
@@ -53,7 +53,7 @@
         </table>
     </div>
 
-    <div runat="server" id="divGetPW" style="width:100%;border-top:groove; float:right; padding-top:100px; margin-top:50px;">
+    <div runat="server" id="divGetPW" style="width:100%;border-top:groove; float:right; padding-top:100px; margin-top:50px; display:none">
         <table style="margin: 0 auto; ">
             <tr>
                 <td align="center"><label> Please Enter your Email </label></td>
