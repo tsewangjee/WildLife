@@ -6,6 +6,9 @@
         function ShowGetPW() {
             document.getElementById("<%= divGetPW.ClientID %>").style.display = 'block';
         }
+        function ShowEmailNotification() {
+            alert("Please Check your email for password reset link.");
+        }
     </script>
 
     <div style=" float:left; position:static; width:50%;">
@@ -64,7 +67,7 @@
             </tr>
             <tr><td><div style="height:30px"></div></td></tr>
             <tr>
-                <td align="center"><button>Get Password reset Link</button></td>
+                <td align="center"><Button type="button" id="btnGetPassword" onclick="ShowEmailNotification()">Get Password reset Link</Button></td>
             </tr>
         </table>
     </div>
