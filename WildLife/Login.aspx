@@ -38,7 +38,8 @@
             </tr>
             <tr><td colspan="2"><div style="height:30px"></div></td></tr>
             <tr>
-                <td>Email</td> <td><input type="text"/></td>
+                <td>Email</td> <td><asp:TextBox ID="idSignupEmail" autocomplete="off" runat="server" Width="170px"></asp:TextBox></td>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="idSignupEmail" ErrorMessage="Invalid Email" ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" Display="Dynamic">*</asp:RegularExpressionValidator>
             </tr>
             <tr>
                 <td>Password</td> <td><input type="password"/></td>
