@@ -38,5 +38,5 @@
             </p>
         </div>
     </div>
-
+    <img src="~/Content/elephant.jpg" />
 </asp:Content>
