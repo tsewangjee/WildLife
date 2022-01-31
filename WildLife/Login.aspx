@@ -26,7 +26,7 @@
             <tr><td colspan="2"><div style="height:70px"></div></td></tr>
             <tr>
                 <td align="center"><Button type="button" id="btnForgotPW" onclick="ShowGetPW()">Forgot Password?</Button></td>
-                <td align="center"><button>Login</button></td>
+                <td align="center"><asp:Button runat="server" text="Login" OnClick="Login_Click"/></td>
             </tr> 
         </table>
     </div>

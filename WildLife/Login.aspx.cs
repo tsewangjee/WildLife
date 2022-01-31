@@ -14,5 +14,9 @@ namespace WildLife
 
         }
 
+        protected void Login_Click(object sender, EventArgs e)
+        {
+            //coding logic here
+        }
     }
 }
