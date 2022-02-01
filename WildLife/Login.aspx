@@ -52,7 +52,7 @@
             </tr>
             <tr><td colspan="2"><div style="height:19px"></div></td></tr>
             <tr>
-                <td colspan="2" align="center"><button>Sign Up</button></td>
+                <td colspan="2" align="center"><asp:Button runat="server" text="SignUp" OnClick="SignUp_Click"/></td>
             </tr>
         </table>
     </div>

@@ -18,5 +18,10 @@ namespace WildLife
         {
             //coding logic here
         }
+
+        protected void SignUp_Click(object sender, EventArgs e)
+        {
+            //coding logic here
+        }
     }
 }
