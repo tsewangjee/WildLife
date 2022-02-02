@@ -16,7 +16,7 @@ namespace WildLife
 
         protected void Login_Click(object sender, EventArgs e)
         {
-            //coding logic here
+            ip_loginEmail.Value = "clicked";
         }
 
         protected void SignUp_Click(object sender, EventArgs e)

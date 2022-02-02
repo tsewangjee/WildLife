@@ -15,6 +15,15 @@ namespace WildLife
     {
 
         /// <summary>
+        /// ip_loginEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText ip_loginEmail;
+
+        /// <summary>
         /// idSignupEmail control.
         /// </summary>
         /// <remarks>

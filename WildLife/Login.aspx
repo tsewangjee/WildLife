@@ -18,10 +18,10 @@
             </tr>
             <tr><td colspan="2"><div style="height:30px"></div></td></tr>
             <tr>
-                <td>Email</td> <td><input type="text"/></td>
+                <td>Email</td> <td><input id="ip_loginEmail" runat="server" type="text"/></td>
             </tr>
             <tr>
-                <td width="150px">Password</td> <td><input type="password"/></td>
+                <td width="150px">Password</td> <td><input id="ip_loginPW" type="password"/></td>
             </tr>
             <tr><td colspan="2"><div style="height:70px"></div></td></tr>
             <tr>
