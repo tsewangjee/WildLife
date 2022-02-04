@@ -71,3 +71,4 @@ D:\Local\WildLife\WildLife\obj\Debug\WildLife.csproj.CoreCompileInputs.cache
 D:\Local\WildLife\WildLife\obj\Debug\WildLife.csproj.CopyComplete
 D:\Local\WildLife\WildLife\obj\Debug\WildLife.dll
 D:\Local\WildLife\WildLife\obj\Debug\WildLife.pdb
+D:\Local\WildLife\WildLife\obj\Debug\WildLife.csproj.AssemblyReference.cache
