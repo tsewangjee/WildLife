@@ -22,6 +22,14 @@ namespace WildLife
         protected void Login_Click(object sender, EventArgs e)
         {
             ip_loginEmail.Value = "clicked";
+            if(password == null)
+            {
+                throw("Please enter a password")
+            }
+            elseif(usename == null)
+            {
+                throw("invalid userID);
+            }
         }
 
         protected void SignUp_Click(object sender, EventArgs e)
