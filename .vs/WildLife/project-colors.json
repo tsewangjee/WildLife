@@ -5,6 +5,11 @@
       "ProjectGuid": "1435c585-35be-4f6e-9675-058dfafe1c33",
       "DisplayName": "WildLife",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1
