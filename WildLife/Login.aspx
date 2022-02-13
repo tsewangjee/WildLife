@@ -3,9 +3,9 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     
     <script type="text/javascript">
-        function ShowGetPW() {
+        <%--function ShowGetPW() {
             document.getElementById("<%= divGetPW.ClientID %>").style.display = 'block';
-        }
+        }--%>
         function ShowEmailNotification() {
             alert("Please Check your email for password reset link.");
         }
@@ -57,7 +57,7 @@
         </table>
     </div>
 
-    <div runat="server" id="divGetPW" style="width:100%;border-top:groove; float:right; padding-top:100px; margin-top:50px; display:none">
+    <div style="width:100%;border-top:groove; float:right; padding-top:100px; margin-top:50px;">
         <table style="margin: 0 auto; ">
             <tr>
                 <td align="center"><label> Please Enter your Email </label></td>
@@ -68,7 +68,7 @@
             </tr>
             <tr><td><div style="height:30px"></div></td></tr>
             <tr>
-                <td align="center"><Button type="button" id="btnGetPassword" onclick="ShowEmailNotification()">Get Password reset Link</Button></td>
+                <td align="center"><asp:Button runat="server" OnClick="SendEmail_NewPassword" Text="Get Password reset Link" /></td>
             </tr>
         </table>
     </div>

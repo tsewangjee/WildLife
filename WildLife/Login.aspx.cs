@@ -36,5 +36,10 @@ namespace WildLife
         {
             //coding logic here
         }
+
+        protected void SendEmail_NewPassword(object sender, EventArgs e)
+        {
+
+        }
     }
 }
