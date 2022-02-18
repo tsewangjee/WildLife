@@ -55,6 +55,7 @@
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                         <li><a runat="server" href="~/Discussions">Discussions</a></li>
                         <li><a runat="server" href="~/Categories">Categories</a></li>
+                        <li><a runat="server" href="~/PhotoGallery">Photo Gallery</a></li>
                     </ul>
                     <button style="float: right;margin-top: 12px;" onclick="location.href='Login'"; type="button">Login/SignUp</button>
                 </div>

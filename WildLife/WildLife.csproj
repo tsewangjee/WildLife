@@ -130,6 +130,7 @@
     <Content Include="Login.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Login.aspx" />
+    <Content Include="PhotoGallery.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -218,6 +219,13 @@
     </Compile>
     <Compile Include="Login.Master.designer.cs">
       <DependentUpon>Login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGallery.aspx.cs">
+      <DependentUpon>PhotoGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery.aspx.designer.cs">
+      <DependentUpon>PhotoGallery.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
