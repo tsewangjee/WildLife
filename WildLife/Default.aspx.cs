@@ -13,5 +13,15 @@ namespace WildLife
         {
 
         }
+
+        protected void Look_Up(object sender, EventArgs e)
+        {
+            //...
+        }
+
+        protected void Greetings(object sender, EventArgs e)
+        {
+
+        }
     }
 }
