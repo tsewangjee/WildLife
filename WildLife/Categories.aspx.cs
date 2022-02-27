@@ -20,5 +20,21 @@ namespace WildLife
                 var coin = false;
             }
         }
+
+        public bool ValidCategory(string val)
+        {
+            if(val == "FlauraFauna")
+            {
+                return true;
+            }
+            else if(val == "Animals")
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
