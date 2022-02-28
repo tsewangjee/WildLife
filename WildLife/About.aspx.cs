@@ -11,7 +11,17 @@ namespace WildLife
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            referal r = new referal();
+        }
+    }
 
+    public class referal
+    {
+        private int numerical;
+
+        referal()
+        {
+            numerical = 0;
         }
     }
 }
