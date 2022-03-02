@@ -13,6 +13,14 @@ namespace WildLife
         {
             referal referal = new referal();
             referal.numerical = 10;
+            var
         }
     }
+
+    public class priObjCreator
+        {
+        EnvironmentVariableTarget newEnv;
+        var num = (int)"1";
+        }
+
 }
