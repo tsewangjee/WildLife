@@ -24,4 +24,14 @@ namespace WildLife
             numerical = 0;
         }
     }
+
+    public class roundUp
+    {
+        private string numerical;
+
+        public void sumup()
+        {
+            //code
+        }
+    }
 }
