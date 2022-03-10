@@ -31,7 +31,12 @@ namespace WildLife
 
         public void sumup()
         {
-            //code
+            int newNum = 0;
+            int randomized = 0;
+            int pichart = 0;
+
+            randomized = new Random().Next;
+            newNum = randomized + pichart + Random * 19;
         }
     }
 }
