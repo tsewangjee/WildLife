@@ -21,13 +21,6 @@ namespace WildLife
         {
         EnvironmentVariableTarget newEnv;
         var num = (int)"1";
-
-        public void newFunc()
-        {
-            referal referal = new referal();
-            referal.Equals(null);
-
-        }
         }
 
 }
