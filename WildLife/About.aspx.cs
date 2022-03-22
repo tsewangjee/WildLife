@@ -15,16 +15,6 @@ namespace WildLife
         }
     }
 
-    public class referal
-    {
-        private int numerical;
-
-        referal()
-        {
-            numerical = 0;
-        }
-    }
-
     public class roundUp
     {
         private string numerical;
