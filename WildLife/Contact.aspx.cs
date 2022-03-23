@@ -11,7 +11,8 @@ namespace WildLife
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+           If (ispageload)
+           { // Load the page from server }
         }
     }
 }
