@@ -22,11 +22,6 @@ namespace WildLife
         protected void Greetings(object sender, EventArgs e)
         {
 
-        }
-
-        protected void Community_members(object sender, EventArgs e)
-        {
-
-        }
+       {}
     }
 }
