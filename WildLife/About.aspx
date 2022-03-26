@@ -9,12 +9,6 @@
         <a href="https://www.NutritionandLifeStyle.com">Click here if you are interested about Nutrition !</a>
 
         <HR>
-
-
-<H1>Title that is my project</H1>
-
-<H2>could be flaura and fauna</H2>
-
 Send me mail at <a href="tsewanj@wildLifeInc.com">
 
 support@yourcompany.com</a>.
