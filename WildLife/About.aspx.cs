@@ -25,18 +25,5 @@ namespace WildLife
         }
     }
 
-    public class roundUp
-    {
-        private string numerical;
-
-        public void sumup()
-        {
-            int newNum = 0;
-            int randomized = 0;
-            int pichart = 0;
-
-            randomized = new Random().Next;
-            newNum = randomized + pichart + Random * 19;
-        }
     }
 }
