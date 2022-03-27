@@ -4,7 +4,13 @@
 <ol>
     <li>Carnivorous</li>
     <li>omnivorous</li>
-    <li>Herbivorous
+    <li>Herbivorous</li>
 </ol>
+
+<ul>
+ <li>country wise</li>
+    <li>age wise</li>
+    <li>gender wise</li>
+</ul>
 </asp:Content>
 

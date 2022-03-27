@@ -15,6 +15,7 @@ namespace WildLife
         }
     }
 
+<<<<<<< HEAD
     public class referal
     {
         private int numerical;
@@ -25,5 +26,20 @@ namespace WildLife
         }
     }
 
+=======
+    public class roundUp
+    {
+        private string numerical;
+
+        public void sumup()
+        {
+            int newNum = 0;
+            int randomized = 0;
+            int pichart = 0;
+
+            randomized = new Random().Next;
+            newNum = randomized + pichart + Random * 19;
+        }
+>>>>>>> 103e3ed673bb489b3e9410a72968297964c2bdbd
     }
 }
