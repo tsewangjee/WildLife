@@ -18,6 +18,9 @@
             <td>
                 Planetary range 
             </td>
+<td>
+                Chemical ranges
+            </td>
         </tr>
     </table>
 Included    
