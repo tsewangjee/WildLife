@@ -54,6 +54,9 @@
             <tr>
                 <td colspan="2" align="center"><asp:Button runat="server" text="SignUp" OnClick="SignUp_Click"/></td>
             </tr>
+            <tr>
+                //for new content
+            </tr>
         </table>
     </div>
 
