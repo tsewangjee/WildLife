@@ -4,5 +4,4 @@
     <img src="~/image/Jurrasic.jpg" />
     <img src="~/image/Marine.jpg" />
     <img src="~/image/HighLife.jpg" />
-    <img src="~/image/FlightLife.jpg" />
 </asp:Content>
