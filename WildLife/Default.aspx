@@ -5,9 +5,9 @@
     <img src="~/image/wildlife.jpg" />
     <h1> Hi, Thanks for stopping by ! </h1>
     <h3> Things you can find at my page : </h3>
-    <ol>
+    <ul>
         <li>Animal Diversity</li>
         <li>Flaura & Flauna</li>
         <li>Climate Change</li>
-    </ol>
+    </ul>
 </asp:Content>
