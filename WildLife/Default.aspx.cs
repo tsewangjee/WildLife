@@ -19,9 +19,6 @@ namespace WildLife
             //...
         }
 
-        protected void Greetings(object sender, EventArgs e)
-        {
-
-       {}
+        
     }
 }
