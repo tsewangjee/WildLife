@@ -11,14 +11,7 @@ namespace WildLife
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(IsPostBack)
-            {
-                return;
-            }
-            else
-            {
-                var coin = false;
-            }
+            
         }
     }
 }
